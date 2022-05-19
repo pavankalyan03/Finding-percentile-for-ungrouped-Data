@@ -1,5 +1,5 @@
-print("perecintile")
-l=list(map(int,input().split()))
+print("Finding the perecintile")
+l=list(map(int,input("give the input with seperated spaces: ").split()))
 l.sort()
 a=int(input("required percentile: "))
 
